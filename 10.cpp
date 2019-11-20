@@ -49,3 +49,27 @@ int main(){
     dijkstras(source);
     return 0;
 }
+/*output-
+enter the no. of vertices:5
+enter the distance between1 and 2=3
+enter the distance between1 and 3=9999
+enter the distance between1 and 4=7
+enter the distance between1 and 5=9999
+
+enter the distance between2 and 3=4
+enter the distance between2 and 4=2
+enter the distance between2 and 5=9999
+
+enter the distance between3 and 4=5
+enter the distance between3 and 5=6
+
+enter the distance between4 and 5=4
+
+
+enter source1
+shortest distance is
+1-->1=0
+1-->2=3
+1-->3=7
+1-->4=5
+1-->5=9

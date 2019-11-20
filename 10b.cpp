@@ -29,3 +29,18 @@ int main()
 	floyds(graph,n);
 	return 0;
 }
+
+/*output-
+Enter the value of n : 5
+0 2 999 1 8
+6 0 3 2 999
+999 999 0 4 999
+999 999 2 0 3
+3 999 999 999 0
+
+OUTPUT
+0 2 3 1 4 
+6 0 3 2 5 
+10 12 0 4 7 
+6 8 2 0 3 
+3 5 6 4 0 
